@@ -1,13 +1,14 @@
 # CFDP for OpenC3
 
 Created By: Randi Tinney
+
 Date Created: March 13 2026
 
 ## Moving directories
 
 Move the gsw/microservices directory to the base of your openc3-cosmos instance. Move the gsw/targets/CFDP directory to your targets directory
 
-Move the fsw/cfdp into your instance of cFS, specifically under the apps directory
+Move the fsw/cfdp into your instance of cFS, specifically under the apps directory. Make sure to update targets.cmake, your startup.scr script, and add `CFDP_FILEDOWNLOAD_TLM_MID` to your TO app.
 
 ## Files for OpenC3
 
